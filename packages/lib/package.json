@@ -1,6 +1,6 @@
 {
   "name": "version-json",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a basic dexie style versioning tool to process objects",
   "main": "dist/main.js",
   "typings": "dist/main.d.ts",
