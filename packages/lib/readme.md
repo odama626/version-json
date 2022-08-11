@@ -19,7 +19,7 @@ newData {
 }
 ```
 
-if you data doesn't have a field that can be used for versioning, you can use a function too
+if your data doesn't have a field that can be used for versioning, you can use a function instead
 
 ```ts
 const upVersion = new VersionJson(payload => {
