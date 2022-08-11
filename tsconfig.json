@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "ES2020",
+    "lib": ["esnext", "dom"],
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "resolveJsonModule": true,
+    "skipDefaultLibCheck": true
+  },
+  //https://github.com/avajs/ava/discussions/3036#discussioncomment-2928239
+  "ts-node": {
+    "transpileOnly": true
+  }
+}

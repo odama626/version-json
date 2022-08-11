@@ -1,0 +1,23 @@
+{
+  "name": "version-json",
+  "version": "1.0.0",
+  "description": "a basic dexie style versioning tool to process objects",
+  "main": "dist/main.js",
+  "typings": "dist/main.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch src",
+    "prepublish": "pnpm build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.6",
+    "tsup": "^6.2.0"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  }
+}
