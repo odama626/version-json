@@ -10,9 +10,18 @@
     "dev": "tsup --watch src",
     "prepublish": "pnpm build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "json",
+    "version",
+    "migrate",
+    "migration",
+    "dexie",
+    "object",
+    "objects",
+    "versioning"
+  ],
+  "author": "Adam Sparks<adamsparks92@gmail.com> ",
+  "license": "MIT",
   "devDependencies": {
     "@types/lodash-es": "^4.17.6",
     "tsup": "^6.2.0"
